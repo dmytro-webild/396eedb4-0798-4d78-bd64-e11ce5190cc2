@@ -30,31 +30,19 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Dashboard",
-          id: "/dashboard",
-        },
+          name: "Dashboard",          id: "/dashboard"},
         {
-          name: "Focus Zone",
-          id: "/focus-zone",
-        },
+          name: "Focus Zone",          id: "/focus-zone"},
         {
-          name: "Self-Improvement",
-          id: "/self-improvement",
-        },
+          name: "Self-Improvement",          id: "/self-improvement"},
         {
-          name: "Community",
-          id: "/community",
-        },
+          name: "Community",          id: "/community"},
       ]}
       brandName="FocusFlow"
       button={{
-        text: "Get Started",
-        href: "/dashboard",
-      }}
+        text: "Get Started",        href: "/dashboard"}}
       animateOnLoad={true}
     />
   </div>
@@ -65,82 +53,43 @@ export default function LandingPage() {
       description="FocusFlow empowers you with a smart task planner, habit tracker, and Pomodoro timer to elevate your productivity and achieve unparalleled mental clarity."
       testimonials={[
         {
-          name: "Sarah Johnson",
-          handle: "@sarahj",
-          testimonial: "FocusFlow transformed my daily routine. My concentration has never been better!",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/casual-smile-street-style-background-spring_1139-777.jpg",
-          imageAlt: "Sarah Johnson",
-        },
+          name: "Sarah Johnson",          handle: "@sarahj",          testimonial: "FocusFlow transformed my daily routine. My concentration has never been better!",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/casual-smile-street-style-background-spring_1139-777.jpg",          imageAlt: "Sarah Johnson"},
         {
-          name: "Michael Chen",
-          handle: "@mchen",
-          testimonial: "The habit tracker is a game-changer. I'm finally consistent with my goals.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-smiling-senior-man-sitting-bench_1262-1517.jpg",
-          imageAlt: "Michael Chen",
-        },
+          name: "Michael Chen",          handle: "@mchen",          testimonial: "The habit tracker is a game-changer. I'm finally consistent with my goals.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-smiling-senior-man-sitting-bench_1262-1517.jpg",          imageAlt: "Michael Chen"},
         {
-          name: "Emily Rodriguez",
-          handle: "@emilyr",
-          testimonial: "Intuitive design and powerful features make productivity effortless.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/corporate-leaders-demonstrating-powerful-collaboration-strategic-thinking_482257-124682.jpg",
-          imageAlt: "Emily Rodriguez",
-        },
+          name: "Emily Rodriguez",          handle: "@emilyr",          testimonial: "Intuitive design and powerful features make productivity effortless.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/corporate-leaders-demonstrating-powerful-collaboration-strategic-thinking_482257-124682.jpg",          imageAlt: "Emily Rodriguez"},
         {
-          name: "David Kim",
-          handle: "@davidk",
-          testimonial: "The Pomodoro timer helps me achieve deep work without burnout.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/middle-aged-hispanic-business-person_23-2151099206.jpg",
-          imageAlt: "David Kim",
-        },
+          name: "David Kim",          handle: "@davidk",          testimonial: "The Pomodoro timer helps me achieve deep work without burnout.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/middle-aged-hispanic-business-person_23-2151099206.jpg",          imageAlt: "David Kim"},
         {
-          name: "Jessica Lee",
-          handle: "@jessical",
-          testimonial: "Highly recommend FocusFlow for anyone serious about self-improvement and focus.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-bearded-man-wearing-knitted-warm-sweater-hat_273609-6896.jpg",
-          imageAlt: "Jessica Lee",
-        },
+          name: "Jessica Lee",          handle: "@jessical",          testimonial: "Highly recommend FocusFlow for anyone serious about self-improvement and focus.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-bearded-man-wearing-knitted-warm-sweater-hat_273609-6896.jpg",          imageAlt: "Jessica Lee"},
       ]}
       testimonialRotationInterval={6000}
       tag="Achieve More"
       buttons={[
         {
-          text: "Start Your Journey",
-          href: "/dashboard",
-        },
+          text: "Start Your Journey",          href: "/dashboard"},
         {
-          text: "Learn More",
-          href: "/#about",
-        },
+          text: "Learn More",          href: "/#about"},
       ]}
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/smiling-woman-portrait-with-blurred-plant_23-2148304879.jpg",
-          alt: "User avatar 1",
-        },
+          src: "http://img.b2bpic.net/free-photo/smiling-woman-portrait-with-blurred-plant_23-2148304879.jpg",          alt: "User avatar 1"},
         {
-          src: "http://img.b2bpic.net/free-photo/contemplated-serious-young-man-looking-camera_23-2148130297.jpg",
-          alt: "User avatar 2",
-        },
+          src: "http://img.b2bpic.net/free-photo/contemplated-serious-young-man-looking-camera_23-2148130297.jpg",          alt: "User avatar 2"},
         {
-          src: "http://img.b2bpic.net/free-photo/blonde-woman-is-looking-camera-white-background_176474-116011.jpg",
-          alt: "User avatar 3",
-        },
+          src: "http://img.b2bpic.net/free-photo/blonde-woman-is-looking-camera-white-background_176474-116011.jpg",          alt: "User avatar 3"},
         {
-          src: "http://img.b2bpic.net/free-photo/smiling-young-man-making-hand-frame-blue-background_23-2148193971.jpg",
-          alt: "User avatar 4",
-        },
+          src: "http://img.b2bpic.net/free-photo/smiling-young-man-making-hand-frame-blue-background_23-2148193971.jpg",          alt: "User avatar 4"},
         {
-          src: "asset://hero-avatar-5",
-          alt: "User avatar 5",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-confident-saleswoman-working-office-sitting-business-room-reading-writing-down_1258-193622.jpg",          alt: "User avatar 5"},
       ]}
       avatarText="Join 10,000+ focused users"
-      imageSrc="http://img.b2bpic.net/free-photo/market-trends-concept-with-computer_23-2150372439.jpg?_wi=1"
+      imageSrc="http://img.b2bpic.net/free-photo/market-trends-concept-with-computer_23-2150372439.jpg"
       imageAlt="FocusFlow dashboard interface"
       showDimOverlay={false}
       showBlur={true}
@@ -156,9 +105,7 @@ export default function LandingPage() {
       tag="Our Mission"
       buttons={[
         {
-          text: "Discover Features",
-          href: "/#features",
-        },
+          text: "Discover Features",          href: "/#features"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/close-up-woman-holding-smartphone_23-2149265774.jpg"
       imageAlt="FocusFlow application interface with productivity features"
@@ -172,34 +119,16 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          id: "daily-planner",
-          label: "Daily Task Planner",
-          title: "Organize & Prioritize",
-          items: [
-            "Smart to-do lists",
-            "Drag-and-drop planning",
-            "Deadline reminders",
-          ],
+          id: "daily-planner",          label: "Daily Task Planner",          title: "Organize & Prioritize",          items: [
+            "Smart to-do lists",            "Drag-and-drop planning",            "Deadline reminders"],
         },
         {
-          id: "focus-timer",
-          label: "Focus Timer",
-          title: "Deep Work Sessions",
-          items: [
-            "Customizable Pomodoro",
-            "Session analytics",
-            "Soundscapes",
-          ],
+          id: "focus-timer",          label: "Focus Timer",          title: "Deep Work Sessions",          items: [
+            "Customizable Pomodoro",            "Session analytics",            "Soundscapes"],
         },
         {
-          id: "habit-tracker",
-          label: "Habit Tracker",
-          title: "Build Lasting Habits",
-          items: [
-            "Visual progress tracking",
-            "Streak motivators",
-            "Goal synchronization",
-          ],
+          id: "habit-tracker",          label: "Habit Tracker",          title: "Build Lasting Habits",          items: [
+            "Visual progress tracking",            "Streak motivators",            "Goal synchronization"],
         },
       ]}
       title="All-in-One Productivity Hub"
@@ -213,27 +142,16 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={false}
+      animationType="slide-up"
       metrics={[
         {
-          id: "focus-sessions",
-          value: "10K+",
-          title: "Focus Sessions Completed",
-          description: "Users have completed over ten thousand productive focus sessions.",
-          icon: Zap,
+          id: "focus-sessions",          value: "10K+",          title: "Focus Sessions Completed",          description: "Users have completed over ten thousand productive focus sessions.",          icon: Zap,
         },
         {
-          id: "tasks-mastered",
-          value: "50K+",
-          title: "Tasks Mastered",
-          description: "Achieve your goals by mastering thousands of tasks with FocusFlow.",
-          icon: CheckCircle,
+          id: "tasks-mastered",          value: "50K+",          title: "Tasks Mastered",          description: "Achieve your goals by mastering thousands of tasks with FocusFlow.",          icon: CheckCircle,
         },
         {
-          id: "habits-built",
-          value: "1M+",
-          title: "Habits Built",
-          description: "Cultivate positive habits, with over a million new habits formed.",
-          icon: Award,
+          id: "habits-built",          value: "1M+",          title: "Habits Built",          description: "Cultivate positive habits, with over a million new habits formed.",          icon: Award,
         },
       ]}
       title="Your Progress, Visualized"
@@ -247,43 +165,21 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",
-          name: "Sarah Johnson",
-          imageSrc: "http://img.b2bpic.net/free-photo/studio-portrait-brunette-female-blue-shirt-grey-background_613910-7954.jpg",
-          imageAlt: "Sarah Johnson",
-        },
+          id: "1",          name: "Sarah Johnson",          imageSrc: "http://img.b2bpic.net/free-photo/studio-portrait-brunette-female-blue-shirt-grey-background_613910-7954.jpg",          imageAlt: "Sarah Johnson"},
         {
-          id: "2",
-          name: "Michael Chen",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-male-white-shirt-posing-with-crossed-hands-pink-background_140725-26866.jpg",
-          imageAlt: "Michael Chen",
-        },
+          id: "2",          name: "Michael Chen",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-male-white-shirt-posing-with-crossed-hands-pink-background_140725-26866.jpg",          imageAlt: "Michael Chen"},
         {
-          id: "3",
-          name: "Emily Rodriguez",
-          imageSrc: "http://img.b2bpic.net/free-photo/single-gesture-lifestyle-white-male_1262-2168.jpg",
-          imageAlt: "Emily Rodriguez",
-        },
+          id: "3",          name: "Emily Rodriguez",          imageSrc: "http://img.b2bpic.net/free-photo/single-gesture-lifestyle-white-male_1262-2168.jpg",          imageAlt: "Emily Rodriguez"},
         {
-          id: "4",
-          name: "David Kim",
-          imageSrc: "http://img.b2bpic.net/free-photo/contemplated-young-man-sitting-front-wall_23-2148130273.jpg",
-          imageAlt: "David Kim",
-        },
+          id: "4",          name: "David Kim",          imageSrc: "http://img.b2bpic.net/free-photo/contemplated-young-man-sitting-front-wall_23-2148130273.jpg",          imageAlt: "David Kim"},
         {
-          id: "5",
-          name: "Jessica Lee",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-pretty-female-student_1262-3811.jpg",
-          imageAlt: "Jessica Lee",
-        },
+          id: "5",          name: "Jessica Lee",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-pretty-female-student_1262-3811.jpg",          imageAlt: "Jessica Lee"},
       ]}
       cardTitle="Real Users, Real Transformation"
       cardTag="Success Stories"
       buttons={[
         {
-          text: "Join Our Community",
-          href: "/community",
-        },
+          text: "Join Our Community",          href: "/community"},
       ]}
       cardAnimation="slide-up"
     />
@@ -291,71 +187,44 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/representation-collective-mind-process-concept-digital-art-style_23-2151657842.jpg?_wi=1"
+      imageSrc="http://img.b2bpic.net/free-photo/representation-collective-mind-process-concept-digital-art-style_23-2151657842.jpg"
       imageAlt="Abstract blue and purple gradient background"
       logoText="FocusFlow"
       columns={[
         {
-          title: "Product",
-          items: [
+          title: "Product",          items: [
             {
-              label: "Daily Planner",
-              href: "/dashboard",
-            },
+              label: "Daily Planner",              href: "/dashboard"},
             {
-              label: "Focus Timer",
-              href: "/focus-zone",
-            },
+              label: "Focus Timer",              href: "/focus-zone"},
             {
-              label: "Habit Tracker",
-              href: "/dashboard",
-            },
+              label: "Habit Tracker",              href: "/dashboard"},
             {
-              label: "Goal Tracking",
-              href: "/dashboard",
-            },
+              label: "Goal Tracking",              href: "/dashboard"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "/#about",
-            },
+              label: "About Us",              href: "/#about"},
             {
-              label: "Careers",
-              href: "#",
-            },
+              label: "Careers",              href: "#"},
             {
-              label: "Blog",
-              href: "/self-improvement",
-            },
+              label: "Blog",              href: "/self-improvement"},
             {
-              label: "Community",
-              href: "/community",
-            },
+              label: "Community",              href: "/community"},
           ],
         },
         {
-          title: "Resources",
-          items: [
+          title: "Resources",          items: [
             {
-              label: "Help Center",
-              href: "#",
-            },
+              label: "Help Center",              href: "#"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms of Service",
-              href: "#",
-            },
+              label: "Terms of Service",              href: "#"},
             {
-              label: "Contact Us",
-              href: "#",
-            },
+              label: "Contact Us",              href: "#"},
           ],
         },
       ]}
