@@ -90,7 +90,7 @@ export default function LandingPage() {
               imageAlt: "Omar Hassan, Challenge Moderator",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/market-trends-concept-with-computer_23-2150372439.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/market-trends-concept-with-computer_23-2150372439.jpg?_wi=2",
           imageAlt: "community leader portrait smiling",
         },
       ]}
@@ -121,7 +121,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/representation-collective-mind-process-concept-digital-art-style_23-2151657842.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/representation-collective-mind-process-concept-digital-art-style_23-2151657842.jpg?_wi=5"
       imageAlt="Abstract blue and purple gradient background"
       logoText="FocusFlow"
       columns={[
