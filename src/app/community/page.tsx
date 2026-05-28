@@ -26,31 +26,19 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Dashboard",
-          id: "/dashboard",
-        },
+          name: "Dashboard",          id: "/dashboard"},
         {
-          name: "Focus Zone",
-          id: "/focus-zone",
-        },
+          name: "Focus Zone",          id: "/focus-zone"},
         {
-          name: "Self-Improvement",
-          id: "/self-improvement",
-        },
+          name: "Self-Improvement",          id: "/self-improvement"},
         {
-          name: "Community",
-          id: "/community",
-        },
+          name: "Community",          id: "/community"},
       ]}
       brandName="FocusFlow"
       button={{
-        text: "Get Started",
-        href: "/dashboard",
-      }}
+        text: "Get Started",        href: "/dashboard"}}
       animateOnLoad={true}
     />
   </div>
@@ -62,37 +50,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       groups={[
         {
-          id: "community-leaders",
-          groupTitle: "Community Leaders & Mentors",
-          members: [
+          id: "community-leaders",          groupTitle: "Community Leaders & Mentors",          members: [
             {
-              id: "leader1",
-              title: "Alex Sharma",
-              subtitle: "Head of Community",
-              detail: "Guides our global FocusFlow community.",
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg",
-              imageAlt: "Alex Sharma, Head of Community",
-            },
+              id: "leader1",              title: "Alex Sharma",              subtitle: "Head of Community",              detail: "Guides our global FocusFlow community.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg",              imageAlt: "Alex Sharma, Head of Community"},
             {
-              id: "leader2",
-              title: "Mia Wong",
-              subtitle: "Mentor & Educator",
-              detail: "Shares expertise on productivity techniques.",
-              imageSrc: "http://img.b2bpic.net/free-photo/happy-jolly-adult-engaging-virtual-workshop-course-via-web-teleconference_482257-120792.jpg",
-              imageAlt: "Mia Wong, Mentor & Educator",
-            },
+              id: "leader2",              title: "Mia Wong",              subtitle: "Mentor & Educator",              detail: "Shares expertise on productivity techniques.",              imageSrc: "http://img.b2bpic.net/free-photo/happy-jolly-adult-engaging-virtual-workshop-course-via-web-teleconference_482257-120792.jpg",              imageAlt: "Mia Wong, Mentor & Educator"},
             {
-              id: "leader3",
-              title: "Omar Hassan",
-              subtitle: "Challenge Moderator",
-              detail: "Organizes daily challenges and events.",
-              imageSrc: "http://img.b2bpic.net/free-photo/woman-student-greeting-her-professor-laptop-web-video-call_482257-131843.jpg",
-              imageAlt: "Omar Hassan, Challenge Moderator",
-            },
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/market-trends-concept-with-computer_23-2150372439.jpg?_wi=2",
-          imageAlt: "community leader portrait smiling",
-        },
+              id: "leader3",              title: "Omar Hassan",              subtitle: "Challenge Moderator",              detail: "Organizes daily challenges and events.",              imageSrc: "http://img.b2bpic.net/free-photo/woman-student-greeting-her-professor-laptop-web-video-call_482257-131843.jpg",              imageAlt: "Omar Hassan, Challenge Moderator"},
+          ]
+        }
       ]}
       title="Connect & Grow Together"
       description="Join a thriving community of like-minded individuals focused on personal growth, sharing insights, and celebrating milestones together."
@@ -105,14 +71,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Weekly Focus Challenge",
-        "Habit Streak Challenge",
-        "Mindfulness Marathon",
-        "Dopamine Detox Journey",
-        "Morning Routine Masterclass",
-        "Goal Setting Sprint",
-        "Nightly Reflection Circle",
-      ]}
+        "Weekly Focus Challenge",        "Habit Streak Challenge",        "Mindfulness Marathon",        "Dopamine Detox Journey",        "Morning Routine Masterclass",        "Goal Setting Sprint",        "Nightly Reflection Circle"]}
       title="Weekly Challenges & Achievements"
       description="Participate in daily challenges, share your progress, and get inspired by others. Together, we build momentum and celebrate every win."
       tag="Motivation"
@@ -121,71 +80,44 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/representation-collective-mind-process-concept-digital-art-style_23-2151657842.jpg?_wi=5"
+      imageSrc="http://img.b2bpic.net/free-photo/representation-collective-mind-process-concept-digital-art-style_23-2151657842.jpg"
       imageAlt="Abstract blue and purple gradient background"
       logoText="FocusFlow"
       columns={[
         {
-          title: "Product",
-          items: [
+          title: "Product",          items: [
             {
-              label: "Daily Planner",
-              href: "/dashboard",
-            },
+              label: "Daily Planner",              href: "/dashboard"},
             {
-              label: "Focus Timer",
-              href: "/focus-zone",
-            },
+              label: "Focus Timer",              href: "/focus-zone"},
             {
-              label: "Habit Tracker",
-              href: "/dashboard",
-            },
+              label: "Habit Tracker",              href: "/dashboard"},
             {
-              label: "Goal Tracking",
-              href: "/dashboard",
-            },
+              label: "Goal Tracking",              href: "/dashboard"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "/#about",
-            },
+              label: "About Us",              href: "/#about"},
             {
-              label: "Careers",
-              href: "#",
-            },
+              label: "Careers",              href: "#"},
             {
-              label: "Blog",
-              href: "/self-improvement",
-            },
+              label: "Blog",              href: "/self-improvement"},
             {
-              label: "Community",
-              href: "/community",
-            },
+              label: "Community",              href: "/community"},
           ],
         },
         {
-          title: "Resources",
-          items: [
+          title: "Resources",          items: [
             {
-              label: "Help Center",
-              href: "#",
-            },
+              label: "Help Center",              href: "#"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms of Service",
-              href: "#",
-            },
+              label: "Terms of Service",              href: "#"},
             {
-              label: "Contact Us",
-              href: "#",
-            },
+              label: "Contact Us",              href: "#"},
           ],
         },
       ]}
